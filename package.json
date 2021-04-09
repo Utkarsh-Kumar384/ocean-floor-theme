@@ -1,18 +1,34 @@
 {
   "name": "ocean-floor-theme",
+  "displayName": "Ocean Floor Theme",
   "version": "1.0.0",
   "publisher": "utkarsh-kumar384",
   "description": "This is a theme inspired by the color of the ocean floor",
   "engines": {
     "vscode": "^1.55.0"
   },
-  "repository": "",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Utkarsh-Kumar384/ocean-floor-theme/"
+  },
   "keywords": [
-    "vscode-theme",
-    "vsc-theme",
-    "ocean-floor-theme"
+    "Themes",
+    "Ocean Theme",
+    "Ocean Floor Theme",
+    "VS Code Theme"
   ],
   "author": "Utkarsh Kumar",
-  "license": "MIT"
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+        {
+            "label": "Ocean Floor Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/a-color-theme.json"
+        }
+    ]
+}
 }

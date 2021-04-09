@@ -1,1 +1,4 @@
-*.env
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
